@@ -6,17 +6,17 @@ public $pavarde;
 
 public function savybes(){
 
-return 'Labas <i>'. $this -> vardas .$this -> pavarde. '<br>';
+return 'Labas <i>'. $this -> vardas . '</i>'  .$this -> pavarde. '.' .'<br>';
 }
 }
 $vyras = new Person();
 $moteris = new Person();
 
-$vyras -> vardas = 'Jonas';
+$vyras -> vardas = 'Jonas ';
 $vyras -> pavarde = 'Jonaitis';
 
 
-$moteris -> vardas = 'Ona';
+$moteris -> vardas = 'Ona ';
 $moteris -> pavarde = 'Onaite';
 
 echo $moteris-> savybes();

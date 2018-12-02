@@ -1,6 +1,7 @@
+
 <?php
-$date = (int)date('Y');
+  $fromYear = 2008; 
+  $thisYear = (int)date('Y'); 
+  echo '&#9400;' .$fromYear . (($fromYear != $thisYear) ? '-' . $thisYear : '');
 
-echo '&#9400;2015 -' . date("Y");
-
- ?>
+  ?>
